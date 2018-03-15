@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "mongoid-fulltextable"
 
-  s.add_dependency 'activesupport', '~> 5.1.0'
+  s.add_dependency 'activesupport', '~> 5.x'
   s.add_dependency 'unicode_utils', '>= 1.2.2'
 
   s.files         = `git ls-files`.split("\n")
